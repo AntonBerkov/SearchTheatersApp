@@ -14,7 +14,9 @@ import javafx.scene.control.ComboBox;
 public class CriteriesController {
 
     ObservableList<String> theatertypelist = FXCollections.observableArrayList("обычный кинотеатр","частный кинотеатр", "автокинотеатр");
-    ObservableList<String> theaterstreetlist = FXCollections.observableArrayList("ул. Петра Мстиславца","проспект Независимости");
+    ObservableList<String> theaterstreetlist = FXCollections.observableArrayList("ул. Петра Мстиславца","проспект Независимости", "ул. Мележа", "проспект Дзержинского",
+            "проспект Гахеты Правда", "ул. Романовская слобода", "ул. Толбухина", "площадь Октябрьская", "ул. Притыцкого", "ул. Козлова", "ул. Кульман", "Меньковский тракт",
+            "переулок Рабочий", "ул. Энгельса", "ул. Интернациональная");
     ObservableList<String> theaterdistrictlist = FXCollections.observableArrayList("Центральный","Советский","Первомайский","Партизанский","Заводской","Ленинский","Октябрьский","Московский","Фрунзенский");
     ObservableList<String> theaterstationlist = FXCollections.observableArrayList(
             "Уручье",
@@ -45,7 +47,8 @@ public class CriteriesController {
             "Тракторный завод",
             "Партизанская",
             "Автозаводская",
-            "Могилевская"
+            "Могилевская",
+            "нет"
     );
 
     ObservableList<String> theatertimelist = FXCollections.observableArrayList("круглосуточно","не круглосуточно");
